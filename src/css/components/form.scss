@@ -1,0 +1,49 @@
+input[type="text"] {
+  border: 1px solid #eee;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 15px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.form-control {
+  height: 50px;
+  vertical-align: middle;
+}
+
+input.form-control {
+  color: $black;
+}
+
+.input-form {
+  margin-bottom: 30px;
+
+  .form-control {
+    width: 78%;
+    float: left;
+  }
+  
+  .button {
+    width: 20%;
+    float: right;
+  }
+
+  .form-control,.button {
+    display: inline-block;
+  }
+}
+
+.input-group {
+  margin-bottom: 15px;
+  overflow: hidden; 
+}
+
+.error-block {
+  color: #ec525e;
+  background: #fbf0f0;
+  padding: 15px;
+  border-radius: 4px;
+}

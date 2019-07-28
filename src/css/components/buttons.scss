@@ -1,0 +1,41 @@
+.button {
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-primary {
+  position: relative;
+  background-color: #55a7ff;
+}
+
+.is-full-width {
+  width: 100%;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 7px;
+  font-size: 10px;
+}
+
+.btn-primary {
+  &.--inverted {
+    border-color: $color-primary;
+    color: $color-primary;
+    background: $black;
+  }
+}

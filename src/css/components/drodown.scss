@@ -1,0 +1,29 @@
+.dropdown {
+  position: relative;
+  width: 100px;
+  >.btn {
+    width: 100%;
+  }
+  &.open {
+    .dropdown-menu {
+      display: block;
+    }
+  }
+  
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background: rgba($lighter-grey, .9);
+  width: 100%;
+  
+  >li {
+    font-size: 12px;
+    padding: 5px;
+    >input {
+      margin-right: 7px;
+    }
+  }
+}

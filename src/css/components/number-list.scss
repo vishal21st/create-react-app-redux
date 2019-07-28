@@ -1,0 +1,14 @@
+.pill {
+  display: inline-block;
+  padding: 5px;
+  min-width: 70px;
+  text-align: center;
+  border-radius: 4px;
+  background:#caebfb;
+  color: black;
+  margin: 5px;
+
+  &.--red {
+    background: #f9e0dd;
+  }
+}

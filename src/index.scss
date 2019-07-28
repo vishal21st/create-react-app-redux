@@ -1,0 +1,28 @@
+@import "../node_modules/css-reset-and-normalize/scss/reset-and-normalize";
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "../node_modules/flexboxgrid/css/flexboxgrid.min.css";
+@import "./css/atoms/variables";
+@import "./css/atoms/typography";
+@import "./css/atoms/utility";
+// @import "./css/atoms/grid";
+@import "./css/components/drodown.scss";
+@import "./css/components/navbar";
+@import "./css/components/event-tile";
+@import "./css/components/event-detail-tile";
+@import "./css/components/buttons.scss";
+@import "./css/components/form.scss";
+@import "./css/components/duplicate-numbers-alert";
+@import "./css/components/input-box";
+@import "./css/components/number-list";
+@import "./css/components/loader.scss";
+
+@import "./css/pages/app";
+@import "./css/pages/home.scss";
+@import "./css/pages/trailer.scss";
+
+* {
+  transition: all .4s;
+}
+html {
+  
+}
